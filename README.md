@@ -79,3 +79,18 @@ spring.jpa.hibernate.ddl-auto=update
    ```bash
    git clone https://github.com/albajoseph/AntiFraudSystem.git
    ```
+2. **Build the project**:
+Use the Gradle wrapper to compile the code and handle dependencies:
+```bash
+./gradlew build
+```
+3. **Run the application**:
+Start the Spring Boot application locally:
+```bash
+./gradlew bootRun
+```
+4. **Access the API**:
+The server will be available at the following base URL:
+```
+http://localhost:28852
+```
